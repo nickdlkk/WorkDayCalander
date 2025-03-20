@@ -1,3 +1,4 @@
 declare module 'workday-cn' {
-  export function getWorkdaysBetween(startDate: Date, endDate: Date): Date[];
+  export function isWorkday(date: Date): boolean;
+  export function getWorkdaysBetween(startDate: Date, endDate: Date): number;
 } 
